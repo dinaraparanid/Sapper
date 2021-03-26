@@ -72,41 +72,41 @@ inline int scanf_rng(const char* const format, ...)
 
 // macro for comparing by field
 
-#define COMPARE_BY(FIELD) ((const player*)a)->FIELD - ((const player*)b)->FIELD
+#define COMPARE_BY(TYPE, FIELD) ((const TYPE*)a)->FIELD - ((const TYPE*)b)->FIELD
 
 /** compare by games amount */
 
 int compare_games(const void* a, const void* b)
 {
-    return COMPARE_BY(games);
+    return COMPARE_BY(player, games);
 }
 
 /** compare by easy level victories amount */
 
 int compare_easy(const void* a, const void* b)
 {
-    return COMPARE_BY(easy);
+    return COMPARE_BY(player, easy);
 }
 
 /** compare by hard level victories amount */
 
 int compare_hard(const void* a, const void* b)
 {
-    return COMPARE_BY(hard);
+    return COMPARE_BY(player, hard);
 }
 
 /** compare by doom guy level victories amount */
 
 int compare_doom(const void* a, const void* b)
 {
-    return COMPARE_BY(doom_guy);
+    return COMPARE_BY(player, doom_guy);
 }
 
 /** compare by percent of victories amount */
 
 int compare_percent(const void* a, const void* b)
 {
-    return COMPARE_BY(percent);
+    return COMPARE_BY(player, percent);
 }
 
 /**
@@ -389,7 +389,6 @@ inline void open_cell_hard(
 
                 if (!potato)
                 {
-                    zeroes_size++;
                     zeroes = realloc(zeroes, ++ * zeroes_size * sizeof(pair));
 
                     SET_TO_PAIR(
@@ -431,8 +430,7 @@ inline void open_cell_hard(
 
                 if (!potato)
                 {
-                    zeroes_size++;
-                    zeroes = realloc(zeroes, *zeroes_size * sizeof(pair));
+                    zeroes = realloc(zeroes, ++*zeroes_size * sizeof(pair));
 
                     SET_TO_PAIR(
                         zeroes[*zeroes_size - 1],
