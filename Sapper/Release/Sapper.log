@@ -1,0 +1,14 @@
+﻿  Sapper.c
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(109,31): warning C4244: return: преобразование "const double" в "int", возможна потеря данных
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(124,1): warning C4267: инициализация: преобразование из "size_t" в "const uint16_t"; возможна потеря данных
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(492,25): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(541,27): warning C4477: "sscanf": в строке форматирования "%hu" требуется аргумент типа "unsigned short *", но вариативный аргумент "1" имеет тип "int"
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(551,27): warning C4477: "sscanf": в строке форматирования "%hu" требуется аргумент типа "unsigned short *", но вариативный аргумент "1" имеет тип "int"
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(580,31): warning C4477: "sscanf": в строке форматирования "%hu" требуется аргумент типа "unsigned short *", но вариативный аргумент "1" имеет тип "int"
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(586,25): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+F:\PROGRAMMING\C\Sapper\Sapper\Sapper.c(642,10): warning C4101: th_str: неиспользованная локальная переменная
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 25 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Sapper.vcxproj -> F:\PROGRAMMING\C\Sapper\Release\Sapper.exe
