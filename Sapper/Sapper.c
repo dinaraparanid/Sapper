@@ -62,12 +62,12 @@ inline int scanf_rng(const char* const format, ...)
 {
     va_list arg_list;
     __crt_va_start(arg_list, format);
-    const int player = _vfscanf_l(stdin, format, NULL, arg_list);
+    const int result = _vfscanf_l(stdin, format, NULL, arg_list);
     __crt_va_end(arg_list);
 
     scanf("%*[^\n]");
     _fflush_nolock(stdin);
-    return player;
+    return result;
 }
 
 // macro for comparing by field
