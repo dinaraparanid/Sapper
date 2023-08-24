@@ -10,7 +10,7 @@ Project is uploaded in the original state as it was presented years ago.
 Original paste in pastebin is located [here](https://pastebin.com/6ezUJVb1).
 
 ### **Preview**
-![preview](preview.webm)
+![preview](preview.mp4)
 
 ## **License**
 *GNU Public License V 3.0*
