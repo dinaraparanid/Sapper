@@ -1,0 +1,3 @@
+/home/paranid5/PROGRAMMING/C/sapper/cmake-build-debug/CMakeFiles/sapper.dir
+/home/paranid5/PROGRAMMING/C/sapper/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/paranid5/PROGRAMMING/C/sapper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
